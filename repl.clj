@@ -9,3 +9,5 @@
 											:target :nodejs
 											:source-map true)
 
+(require 'clojure.string :reload)
+(require 'repl.two :reload)
